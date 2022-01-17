@@ -8,6 +8,8 @@
 <body>
 
     <h1> We zijn vandaag <span th:text="${openGesloten}"></span></h1>
+    <h2>Adres</h2>
+    <div th:object="${adres}" th:text="|*{straat} *{huisNr} *{gemeente.postcode} *{gemeente.naam}|"></div>
 
 </body>
 </html>
