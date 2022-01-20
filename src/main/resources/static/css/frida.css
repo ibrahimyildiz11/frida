@@ -156,3 +156,10 @@ tr:nth-child(odd) {
 tr:hover {
     background-color: gold;
 }
+
+.naastMekaar {
+    padding-left: 0;
+}
+.naastMekaar li {
+    display: inline;
+}
